@@ -9,7 +9,7 @@ This package is built on top of the requests library and provides a simple inter
 To get started, users can simply install it using pip:
 
 ```
-pip install DitchPy
+pip install DitchCarbon
 ```
 
 ## Usage
