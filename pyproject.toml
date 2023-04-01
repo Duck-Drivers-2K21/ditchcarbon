@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling", "requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DitchCarbon"
+version = "0.0.1"
+authors = [
+  { name="Luke Cummins", email="lc2232@bath.ac.uk" },
+  { name="Alex Dawkins", email="asd60@bath.ac.uk"},
+]
+description = "Introducing \"DitchPy\", an open-source Python package that allows users to easily call the DitchCarbon API using HTTP requests. DitchPy is an API that provides information on carbon emissions of different energy sources across the globe. With DitchCarbon, users can easily retrieve information about the carbon emissions and use it in their own projects. DitchPy is built on top of the popular Python requests library and provides a simple interface for making HTTP requests to the DitchCarbon API. The package includes a set of functions that allow users to retrieve data for specific countries, energy sources, and time periods."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = ""
+"Bug Tracker" = ""
