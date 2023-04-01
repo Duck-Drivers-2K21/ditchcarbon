@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "DitchCarbon"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Luke Cummins", email="lc2232@bath.ac.uk" },
   { name="Alex Dawkins", email="asd60@bath.ac.uk"},
