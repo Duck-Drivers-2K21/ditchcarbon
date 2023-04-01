@@ -1,12 +1,12 @@
-# DitchPy
+# DitchCarbon Python Package
 
-Introducing "DitchPy", an open-source Python package that allows users to easily call the DitchCarbon API (v1.0) using HTTP requests.
+An open-source Python package that allows users to easily call the DitchCarbon API (v1.0) with type hints etc from within Python.
 
 DitchCarbon is an API that provides information on carbon emissions of different energy sources across the globe. With DitchPy, users can easily retrieve information about the carbon emissions of different energy sources and use it in their own projects.
 
-DitchPy is built on top of the popular Python requests library and provides a simple interface for making HTTP requests to the DitchCarbon API. The package includes a set of functions that allow users to retrieve data for specific countries, energy sources, and time periods.
+This package is built on top of the requests library and provides a simple interface for making HTTP requests to the DitchCarbon API. The package includes a set of functions that allow users to retrieve data for specific countries, energy sources, and time periods.
 
-To get started, users can simply install DitchPy using pip:
+To get started, users can simply install it using pip:
 
 ```
 pip install DitchPy
