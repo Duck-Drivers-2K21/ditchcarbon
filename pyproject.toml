@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "DitchCarbon"
-version = "0.0.2"
+version = "0.1.0"
 authors = [
   { name="Luke Cummins", email="lc2232@bath.ac.uk" },
   { name="Alex Dawkins", email="asd60@bath.ac.uk"},
@@ -18,4 +18,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved",
     "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests"
 ]
