@@ -13,8 +13,9 @@ class DitchCarbonClient:
     Raises:
         AssertionError: If no API key is provided.
     """
-    def __init__(self, api_key=None):
-        assert api_key is not None
+
+    def __init__(self, api_key):
+        assert api_key is not None and api_key, "Please provide a valid API key, available from https://ditchcarbon.com/"
         self.api_key = api_key
 
     @staticmethod
@@ -247,4 +248,3 @@ class DitchCarbonClient:
         locals_ = locals()
         locals_['id'] = None
         return self._call_ditch_carbon(f"activities/{id}", locals_)
-
