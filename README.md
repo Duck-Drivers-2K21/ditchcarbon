@@ -1,4 +1,4 @@
-# DitchCarbon Python Package
+# [DitchCarbon](https://ditchcarbon.com) Python Package
 
 An open-source Python package that allows users to easily call the DitchCarbon API (v1.0) with type hints etc from within Python.
 
@@ -26,4 +26,6 @@ Then call one of the DitchCarbonAPIs endpoints:
 carbon_client.get_supplier('Nestle', currency='GBP'))
 ```
 
+## Further Reading
 
+For more information, see the [DitchCarbon API documentation](http://api.ditchcarbon.com)
